@@ -1,0 +1,72 @@
+private void toggleDataTwoPopulationsArea(Boolean show){
+    
+    
+    
+}
+private void toggleDataOnePopulationArea(Boolean show){
+    
+    
+    
+}
+private void toggleDataOutcomeArea(Boolean show){
+    numOutcomeLabel.setVisible(show);
+    variableNumOutcomesTextField.setVisible(show);
+    trialNumTimesLabel.setVisible(show);
+    outcomeNameField1.setVisible(show);
+    outcomeTextArea.setVisible(show);
+    lowerBoundField1.setVisible(show);
+    upperBoundField1.setVisible(show);
+    probabilityLabel1.setVisible(show);
+    //handle extra outcome fields
+}
+public void toggleDataDistArea(Boolean show){
+    
+    
+    
+}
+private void toggleDataExternalListArea(Boolean show){
+    
+    
+    
+}
+private void toggleTrialFixedOutcomesArea(Boolean show){
+
+    
+    
+    
+}
+private void toggleTrialVariableOutcomesArea(Boolean show)
+{
+    
+    
+    
+}
+private void toggleTrialOutcomesInOrderArea(Boolean show)
+{
+    
+    
+    
+}
+private void toggleTrialOutcomesInSetArea(Boolean show)
+{
+    
+    
+    
+}
+
+private void toggleVariableContainsSuccessConditionArea(Boolean show)
+{
+    
+    
+    
+}
+/**
+ * Works for both percent of success and number of successes !!
+ * @param show 
+ */
+private void toggleVariableNumSuccessArea(Boolean show)
+{
+    
+    
+    
+}
