@@ -1,32 +1,14 @@
-========================
-BUILD OUTPUT DESCRIPTION
-========================
+The Simulator software was developed for use in the Statiscs 216 course at Ithaca College. Users specify a theoretical model or a set of data and take repeated samples. Its overall design is based on the simulation methods used in De Veaux, Velleman, and Bock's statistics textbooks.
 
-When you build an Java application project that has a main class, the IDE
-automatically copies all of the JAR
-files on the projects classpath to your projects dist/lib folder. The IDE
-also adds each of the JAR files to the Class-Path element in the application
-JAR files manifest file (MANIFEST.MF).
+  The Simulator allows users to construct sampling distributions, compute empirical p-values, test-hypotheses, and graph results. Populations may be theoretical distributions (Bionomial, Exponential, Normal, or Uniform), external datasets, or manually inputed values. Samples can be taken with or without replacement. Samples can either contain a fixed number of outcomes, or run until a set of user-defined conditions are met. 
 
-To run the project from the command line, go to the dist folder and
+ Users can measure response variables including mode, mean, median, sample size and the number of successes in a trial. Successes are measured by user-defined  conditional requirements (i.e a success is a trial where a die rolls a six three times in a row). Results can be graphed with Histograms, BarCharts, PieCharts, and DotPlots. Users can compare samples from two distinct populations. Finally, users can take samples from two groups within the same population. 
+
+Developed in Java with the Netbeans GUI Builder. Dependencies include JFreeChart and Apache Commons Math.
+
+To run the Simulator from the command line, go to the dist folder and
 type the following:
 
 java -jar "Simulator.jar" 
 
-To distribute this project, zip up the dist folder (including the lib folder)
-and distribute the ZIP file.
 
-Notes:
-
-* If two JAR files on the project classpath have the same name, only the first
-JAR file is copied to the lib folder.
-* Only JAR files are copied to the lib folder.
-If the classpath contains other types of files or folders, these files (folders)
-are not copied.
-* If a library on the projects classpath also has a Class-Path element
-specified in the manifest,the content of the Class-Path element has to be on
-the projects runtime path.
-* To set a main class in a standard Java project, right-click the project node
-in the Projects window and choose Properties. Then click Run and enter the
-class name in the Main Class field. Alternatively, you can manually type the
-class name in the manifest Main-Class element.
